@@ -9,7 +9,7 @@ function updateClock(){
     let seconds = new Date().getSeconds() 
     let ampm = hour => 12 ? "PM" : "AM" 
 
-    if(hour > 12 ){
+    if(hour => 12 ){
     ampm = "PM"
     }
 
